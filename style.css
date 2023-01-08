@@ -1,0 +1,512 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family:"Poppins-Regular";
+    src: url(poppins/Poppins-Regular.ttf);
+}
+.head{
+    background-color: #eee;
+    display: flex;
+    height: 30px;
+    position:static ;
+}
+.head ul li{
+    font-family: "Poppins-Regular";
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #666 ;
+}
+.head ul .email{
+    margin-left: 140px;
+}
+.head ul .phone{
+    margin-left: 30px;
+    padding: 5px;
+}
+.head .lng button{
+    font-family:"Poppins-Regular" ;
+    background-color: #fff;
+    border: none;
+    margin-left: 700px;
+    width: 70px;
+    height: 30px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 10%);
+    position: sticky;
+}
+.logo{
+    width: 200px;
+    margin-left: 130px;
+    padding-top: 1em ;
+    padding-bottom: 1em ;
+}
+.navbar ul{
+    position: sticky;
+    float: right;
+    display: inline-block;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    margin-right: 150px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #666;
+}
+.navbar li{
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    font-family: "Poppins-Regular";
+    display: inline-block;
+    list-style:none ;
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar ul .coloured{
+    color: #0d6db7;
+}
+.navbar .donatebtn{
+    position: sticky;
+    font-family: "Poppins-Regular";
+    padding: 0, 20px, 0, 20px;
+    background-color: #0d6db7;
+    border: none;   
+    width: 150px;
+    line-height: 3;
+    border-radius: 3px;
+    color: #eee;
+    cursor: pointer;
+}
+.imgfirst img{
+    background-repeat: no-repeat;
+    margin-right: 140px;
+    margin-top: 70px;
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+.heading{
+    font-family: "Poppins-regular";
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: 100px;
+    color: rgba(0,0,0,.85);
+    line-height: 1.23;
+    display: flex;
+}
+.heading .coloured-heading{
+    font-weight: bold;
+    color: #8dc63f;
+}
+.paraone h3{
+    font-family: "Poppins-regular";
+    font-size: 25px;
+    margin-left: 160px;
+    margin-top: 30px;
+    color: rgba(0,0,0,.85);
+    display: flex;
+}
+.paraone .coloured-para{
+    color:#0d6db7 ;
+}
+.paraone p{
+    display: flex;
+    font-family: "Poppins-Regular";
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 160px;
+    color: rgba(0,0,0,.85);
+    line-height: 1.78;
+}
+.readbtn{
+    font-family: "Poppins-Regular" ;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 15px 40px;
+    line-height: 1.2;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 160px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #666;
+    border-width: 1px;
+}
+.donationbox{
+    background-color: rgba(182,239,73,.2);
+    margin-top: 40px;
+    margin-left: 110px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    height:140px ;
+}
+.donationbox h2{
+    font-family: "Poppins-Regular";
+    color: rgba(0,0,0,.85);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.53 ;
+}
+.donationbox-p{
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d6db7;
+}
+.donationbtns{
+    float: right;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.donationbtn1{
+    font-family: "Poppins-Regular";
+    font-weight: 800;
+    background-color: #424242;
+    margin-left: px;
+    border: none;   
+    width: 200px;
+    line-height: 4;
+    border-radius: 10px;
+    color: #eee;
+    cursor: pointer;
+}
+.donationbtn2{
+    font-family: "Poppins-Regular";
+    font-weight: 800;
+    background-color: #fff;
+    margin-left: 10px;
+    border: none;   
+    width: 110px;
+    line-height: 4;
+    border-radius: 10px;
+    color: rgb(29, 28, 28);
+    cursor: pointer;
+}
+.donationbtn3{
+    font-family: "Poppins-Regular";
+    font-weight: 800;
+    background-color: #fff;
+    margin-left: 10px;
+    border: none;   
+    width: 200px;
+    line-height: 4;
+    border-radius: 10px;
+    color: rgb(29, 28, 28);
+    cursor: pointer;
+}
+.donationbtn4{
+    font-family: "Poppins-Regular";
+    font-weight: 800;
+    background-color: #fff;
+    margin-left: 10px;
+    border: none;   
+    width: 100px;
+    line-height: 4;
+    border-radius: 10px;
+    color: rgb(29, 28, 28);
+    cursor: pointer;
+}
+.donationbtn5{
+    font-family: "Poppins-Regular";
+    font-weight: 500;
+    color: #fff;
+    background-color: #8dc63f;
+    margin-left: 10px;
+    border: none;   
+    width: 100px;
+    line-height: 4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.winterimg{
+    width: 1130px;
+    height: 560px;
+}
+.winterimg img{
+    width: 100%;
+    height: 100%;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.centre-h{
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+    color: #424242;
+}
+.icons{
+    background-color: rgba(182,239,73,.2);
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    width: 130px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.icons .icone-one{
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.icons .icone-two{
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.icons .icone-three{
+    margin-right: 40px;
+    width: 10px;
+    height: 5px;
+    box-sizing: border-box;
+}
+.icons .icone-four{
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.icons .icone-five{
+    margin-right: 70px;
+    width: 10px;
+    height: 20px;
+}
+.icons .icone-six{
+    margin-right: 70px;
+    width: 10px;
+    height: 70px;
+}
+.icons .icone-one h5{
+    font-family: "Poppins-Regular";
+    font-size: 17px;
+    margin-top: 10px;
+}
+.icons .icone-two h5{
+    font-family: "Poppins-Regular";
+    font-size: 17px;
+    margin-top: 10px;
+}
+.icons .icone-three h5{
+    font-family: "Poppins-Regular";
+    font-size: 17px;
+    margin-top: 10px;
+}
+.icons .icone-four h5{
+    font-family: "Poppins-Regular";
+    font-size: 17px;
+    margin-top: 10px;
+}
+.icons .icone-five h5{
+    font-family: "Poppins-Regular";
+    font-size: 17px;
+    margin-top: 10px;
+}
+.icons .icone-six h5{
+    font-family: "Poppins-Regular";
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.picbtns{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+.box1{
+    background-image: url(./Images/46ccd3e9-3acf-4139-bd8b-8f93c9fa57ae.jpg);
+    width: 30%;
+    height: 350px   ;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.box2{
+    border-radius: 10px;
+    background-image: url(./Images/cbcbd0d4-16a9-49f9-a36b-292431441967.jpg);
+    width: 30%;
+    height: 350px   ;
+}
+.box3{
+    border-radius: 10px;
+    background-image: url(./Images/db1ef105-5640-46bd-a160-6cb7709c6381.jpg);
+    width: 30%;
+    height: 350px   ;
+    margin-right: 70px;
+}
+.box1 h4{
+    font-family: "Poppins-Regular";
+    font-size: large;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 10px ;
+    margin-top: 220px;
+}
+.box1 .donatebtn{
+    position: sticky;
+    font-family: "Poppins-Regular";
+    padding: 0, 20px, 0, 20px;
+    background-color: #8dc63f;
+    border: none;   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 350px;
+    line-height: 3.5;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+} 
+.box2 h4{
+    font-family: "Poppins-Regular";
+    font-size: large;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 10px ;
+    margin-top: 240px;
+}
+.box2 .donatebtn{
+    position: sticky;
+    font-family: "Poppins-Regular";
+    padding: 0, 20px, 0, 20px;
+    background-color: #8dc63f;
+    border: none;   
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 350px;
+    line-height: 3.5;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+} 
+.box3 h4{
+    font-family: "Poppins-Regular";
+    font-size: large;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 10px ;
+    margin-top: 240px;
+}
+.box3 .donatebtn{
+    position: sticky;
+    font-family: "Poppins-Regular";
+    padding: 0, 20px, 0, 20px;
+    background-color: #8dc63f;
+    border: none;   
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 350px;
+    line-height: 3.5;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+} 
+.combine{
+    display: flex;
+    background-image: url(./Images/2178912-image-1584559620.jpg);
+    background-repeat: no-repeat;
+    height: 580.5px;
+    width: 546px;
+    margin-left: 100px;
+    border-top-left-radius: 100px;
+}
+/* images sets li */
+.imgicons{
+    display: block;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+.hding h2{
+    font-family: "Poppins-Regular";
+    font-size: 25px;
+    font-weight: 200px;
+    color: #424242;
+    margin-left:580px ;
+    display: block;
+}
+.imgicons .imgicone-one{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    margin-top: 140px;
+    width: 50px;
+    height: 50px;
+}
+.imgicons .imgicone-one img{
+    margin-top: 10px;
+    height: 30px;
+}
+.imgicons .imgicone-two{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+}
+.imgicons .imgicone-two img{
+    margin-top: 10px;
+    height: 30px;
+}
+.imgicons .imgicone-three{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+}
+.imgicons .imgicone-three img{
+    margin-top: 10px;
+    height: 30px;
+}
+.imgicons .imgicone-four{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+}
+.imgicons .imgicone-four img{
+    margin-top: 10px;
+    height: 30px;
+}
+.package {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    background-color: rgba(182,239,73,.2);;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 65px;
+    border-radius: 40px;
+}
+.foods{
+    font-family: "Poppins-Regular";
+    padding: 20px;
+    border-radius: 20px;
+}
+.family{
+    font-family: "Poppins-Regular";
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.give{
+    font-family: "Poppins-Regular";
+    padding: 20px;
+    border-radius: 20px;
+}
+.caring{
+    font-family: "Poppins-Regular";
+    padding: 20px;
+    border-radius: 20px;
+}
