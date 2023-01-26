@@ -326,7 +326,9 @@
     height: 500px;
 }
 .box1{
-    background-image: url(./Images/46ccd3e9-3acf-4139-bd8b-8f93c9fa57ae.jpg);
+    background: rgba(29, 28, 28, 0.658) url(./Images/46ccd3e9-3acf-4139-bd8b-8f93c9fa57ae.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
     width: 30%;
     height: 350px   ;
     border-radius: 10px;
@@ -334,13 +336,17 @@
 }
 .box2{
     border-radius: 10px;
-    background-image: url(./Images/cbcbd0d4-16a9-49f9-a36b-292431441967.jpg);
+    background: rgba(29, 28, 28, 0.658) url(./Images/cbcbd0d4-16a9-49f9-a36b-292431441967.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
     width: 30%;
     height: 350px   ;
 }
 .box3{
     border-radius: 10px;
-    background-image: url(./Images/db1ef105-5640-46bd-a160-6cb7709c6381.jpg);
+    background: rgba(29, 28, 28, 0.658) url(./Images/db1ef105-5640-46bd-a160-6cb7709c6381.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
     width: 30%;
     height: 350px   ;
     margin-right: 70px;
@@ -411,70 +417,213 @@
     color: #fff;
     cursor: pointer;
 } 
-.combine{
+.biryanibox{
+    width: 1130px;
+    height: 500px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
     display: flex;
-    background-image: url(./Images/2178912-image-1584559620.jpg);
-    background-repeat: no-repeat;
-    height: 580.5px;
+}   
+.biryaniimg{
+    width: 565px;
+    height: 570px;
+    /* border: 3px solid blue; */
+    padding: 0px 12px 0px 12px;
+}
+.biryaniborders{
+    background-image: url(./Images/biryani.jpg);
+    background-size: cover;
+    border-top-left-radius: 100px ;
     width: 546px;
-    margin-left: 100px;
+    height: 409px;
+    margin-bottom: 20px;
+    /* display: flex; */
+    background-position: center center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.borders2{
+    display: flex;
+    width: 546px;
+    height: 210;
+}
+.borders2 .section1{
+    width: 50%;
+    background-color: #8dc63f;
+    border: 1px solid white;
     border-top-left-radius: 100px;
+    height: 210px;
 }
-/* images sets li */
-.imgicons{
-    display: block;
-    margin-bottom: 50px;
-    padding-left: 10px;
+.borders2 .section1 h3{
+    font-family: Poppins-Regular;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.4px;
+    color: #fff;
+    margin: 20px 50px;
 }
-.hding h2{
+.borders2 .section2{
+    width: 50%;
+    border: 1px solid white;
+    height: 210px;
+}
+.borders4{
+    width: 546px;
+    height: 210;
+}
+.borders4 .section3{
+    width: 50%;
+    border: 1px solid white;
+    height: 210px;
+}
+.borders4 .section4{
+    width: 50%;
+    border: 1px solid white;
+    height: 210px;
+}
+
+.biryanidetails{
+    width: 565px;
+    height: 500px;
+    /* border: 3px solid rgb(166, 255, 0); */
+    padding: 0px 12px 0px 12px;
+}
+.biryanidetails h2{
     font-family: "Poppins-Regular";
     font-size: 25px;
     font-weight: 200px;
     color: #424242;
-    margin-left:580px ;
     display: block;
 }
-.imgicons .imgicone-one{
-    background-color: #EEEEEE;
-    border-radius: 15px;
-    margin-top: 140px;
-    width: 50px;
-    height: 50px;
+.iconsbar1{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
 }
-.imgicons .imgicone-one img{
+.iconsbar1 img{
     margin-top: 10px;
     height: 30px;
-}
-.imgicons .imgicone-two{
+    width: 30px;
     background-color: #EEEEEE;
     border-radius: 15px;
-    width: 50px;
-    height: 50px;
+    padding: 10px;
+    margin-right: 20px;
 }
-.imgicons .imgicone-two img{
+.iconshd{
+    display: block;
+}
+.iconshd h5{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d6db7;
+    margin-bottom: 8px;
+}
+.iconshd p{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+.iconsbar2{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
+
+}
+.iconsbar2 img{
     margin-top: 10px;
     height: 30px;
-}
-.imgicons .imgicone-three{
+    width: 30px;
     background-color: #EEEEEE;
     border-radius: 15px;
-    width: 50px;
-    height: 50px;
+    padding: 12px;
+    margin-right: 20px;
+
 }
-.imgicons .imgicone-three img{
+.iconshd{
+    display: block;
+}
+.iconshd h5{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d6db7;
+    margin-bottom: 8px;
+}
+.iconshd p{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+
+
+.iconsbar3{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
+}
+.iconsbar3 img{
     margin-top: 10px;
     height: 30px;
-}
-.imgicons .imgicone-four{
+    width: 30px;
     background-color: #EEEEEE;
     border-radius: 15px;
-    width: 50px;
-    height: 50px;
+    padding: 15px;
+    margin-right: 20px;
 }
-.imgicons .imgicone-four img{
+.iconshd{
+    display: block;
+}
+.iconshd h5{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d6db7;
+    margin-bottom: 8px;
+}
+.iconshd p{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+
+
+.iconsbar4{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
+}
+.iconsbar4 img{
     margin-top: 10px;
     height: 30px;
+    width: 30px;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    padding: 15px;
+    margin-right: 20px;
 }
+.iconshd{
+    display: block;
+}
+.iconshd h5{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d6db7;
+    margin-bottom: 8px;
+}
+.iconshd p{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+
+
+
 .package {
     display: flex;
     justify-content: space-between;
@@ -483,7 +632,7 @@
     background-color: rgba(182,239,73,.2);;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    /* margin-top:20px; */
     padding: 30px 65px;
     border-radius: 40px;
 }
@@ -509,4 +658,135 @@
     font-family: "Poppins-Regular";
     padding: 20px;
     border-radius: 20px;
+}
+.theyinfo{
+    width: 1130px;
+    height: auto;
+    margin: 30px auto;
+    /* border: 2px solid black; */
+}
+.theyinfo p{
+    font-family: Poppins-Regular;
+    font-size: 16px;    
+    color: #8dc63f;
+}
+.theyinfo h2{
+    font-family: Poppins-Regular;
+    font-size: 30px;    
+    margin-top: 10px;
+}
+.they{
+    height: 470px;
+    width: 1130px;
+    background-color: #eee;
+    margin: 50px auto;
+    padding: 50px;
+}
+.they .arshadspic{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 8px;
+    background-color: #424242; */
+    margin: 0px auto;
+}
+.they .arshadspic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* margin: 40px 0px; */
+}
+.they h4{
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    text-align: center;
+    color: #0d6db7;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.they span{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    text-align: center;
+}
+.they p{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.media{
+    font-family: Poppins-Regular;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.work-web{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.ownweb1{
+    /* border: 2px solid #61777F; */
+    width: 259px;
+    height: 360px;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #eee;
+}
+.ownweb1 h5{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.ownweb1 p{
+    font-family: Poppins-Regular;
+    font-size: 12px;
+}
+
+.formui{
+    border: 2px solid #61777F;
+    width: 40%;
+    height: 310px;
+    padding: 30px;
+    margin: 0 10px;
+
+}
+.saylaniform{
+    border: 2px solid #61777F;
+    width: 40%;
+    height: 310px;
+    margin: 0 10px;
+    padding: 30px;
+}
+.appleweb{
+    border: 2px solid #61777F;
+    width: 40%;
+    height: 310px;
+    margin: 0 10px;
+    padding: 30px;
+}
+.regform{
+    border: 2px solid #61777F;
+    width: 40%;
+    height: 310px;
+    margin: 0 10px;
+    padding: 30px;
+}
+.saylaniweb{
+    border: 2px solid #61777F;
+    width: 40%;
+    height: 310px;
+    margin: 0 10px;
+    padding: 20px;
+}
+.web-work{
+    display: flex;
+    justify-content: space-evenly;
+    
 }
